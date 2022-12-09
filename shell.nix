@@ -2,16 +2,16 @@
 let
   srvc = pkgs.rustPlatform.buildRustPackage rec {
     pname = "srvc";
-    version = "63d1aa554a8ef59ad0bf03eb02f23564256700a3";
+    version = "3599eedbdc403ef25b01a73f1c4dcd5e994fd4ba";
 
     src = pkgs.fetchFromGitHub {
       owner = "insilica";
       repo = "rs-srvc";
       rev = "${version}";
-      sha256 = "sha256-0hECLJMeaoMCBnElDKF0ca7cpXN57MCW68rf1AQ82cA=";
+      sha256 = "sha256-BBotqS/w2aXACOWFuHfInmKne3Tn+LiH7o6oet1TR9A=";
     };
 
-    cargoSha256 = "sha256-aI0Ijauu6oURw8BBsmHPVu7pFjCiuycIftFi276PEmo=";
+    cargoSha256 = "sha256-eZIJCVioXUjPnwXAAiR/hGmwsOjqCo7llbMMGRe2rl4=";
 
     nativeBuildInputs = [ pkgs.webfs ];
   };
