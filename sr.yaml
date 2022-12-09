@@ -2,4 +2,5 @@ db: "sink.jsonl"
 
 reviewer: mailto:user@example.com
 
-base_uri: http://localhost:4061/web-api/srvc-config?project-id=1200002
+#base_uri: http://localhost:4061/web-api/srvc-config?project-id=1200002
+base_uri: https://sysrev.com/web-api/srvc-config?project-id=120927
