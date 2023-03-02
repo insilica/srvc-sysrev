@@ -51,7 +51,35 @@
       "inputs": {
         "flake-compat": "flake-compat",
         "flake-utils": "flake-utils",
-        "nixpkgs": "nixpkgs"
+        "nixpkgs": "nixpkgs",
+        "srvc": "srvc"
+      }
+    },
+    "srvc": {
+      "inputs": {
+        "flake-compat": [
+          "flake-compat"
+        ],
+        "flake-utils": [
+          "flake-utils"
+        ],
+        "nixpkgs": [
+          "nixpkgs"
+        ]
+      },
+      "locked": {
+        "lastModified": 1677787732,
+        "narHash": "sha256-vShPc+Tz8n2o8E13npr7ZbDzRaAesWBOJQaCO5ljypM=",
+        "owner": "insilica",
+        "repo": "rs-srvc",
+        "rev": "d38db4d2868f1f9de0671018ec2b95892f97963e",
+        "type": "github"
+      },
+      "original": {
+        "owner": "insilica",
+        "ref": "master",
+        "repo": "rs-srvc",
+        "type": "github"
       }
     }
   },
